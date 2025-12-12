@@ -11,14 +11,19 @@
           "value": "*"
         },
         {
-          "header": "Access-Control-Allow-Methods",
+          "header": "Cross-Origin-Resource-Policy",
           "operation": "set",
-          "value": "GET, POST, OPTIONS"
+          "value": "cross-origin"
         }
       ]
     },
     "condition": {
-      "initiatorDomains": ["threads.net", "www.threads.net"],
+      "initiatorDomains": [
+        "threads.net", 
+        "www.threads.net", 
+        "threads.com", 
+        "www.threads.com"
+      ],
       "resourceTypes": ["image", "xmlhttprequest", "sub_frame"]
     }
   }

@@ -1,16 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "Threads CORS Fixer (By Gemini)",
-  "version": "1.0",
-  "description": "修復 Threads 網頁版因為 CORS 設定錯誤導致的破圖問題。",
+  "name": "Threads CORS Fixer",
+  "version": "1.4",
   "permissions": [
     "declarativeNetRequest", 
     "declarativeNetRequestWithHostAccess"
   ],
   "host_permissions": [
     "*://*.threads.net/*",
-    "*://*.fbcdn.net/*",
+    "*://*.threads.com/*",
+    "*://*.instagram.com/*",
     "*://*.cdninstagram.com/*",
+    "*://*.fbcdn.net/*",
     "*://*.facebook.com/*"
   ],
   "declarative_net_request": {
