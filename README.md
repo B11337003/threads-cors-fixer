@@ -3,7 +3,7 @@
 這是一個微型的 Chrome Extension，用於修復 Threads 網頁版因為 Meta CORS 設定疏漏導致的圖片無法顯示（破圖）問題。
 
 ## 原理
-利用 Chrome Declarative Net Request API，在瀏覽器端針對 `threads.net` 發出的圖片請求，強制補上 `Access-Control-Allow-Origin: *` Header。
+利用 Chrome Declarative Net Request API，在瀏覽器端針對 `threads.com` 發出的圖片請求，強制補上 `Access-Control-Allow-Origin: *` Header。
 
 ## 安裝方法
 1. 下載此專案 (Code -> Download ZIP) 並解壓縮。
